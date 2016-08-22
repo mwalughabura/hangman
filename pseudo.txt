@@ -1,0 +1,19 @@
+program: hangman
+
+select a random word from a list
+or 
+select a random word from a file called a words.txt
+
+print out dashes in accordance to the length of the word
+promp the user to give letters of the word
+chances =  8
+while chances < 0:
+	if the input is anywhere in the word
+		change the dash at its location to the letter
+	else
+		have a penalty on the player
+	chance-=1
+
+the penalty is actually a series of picture 
+showing someone who is being hanged hence the name of
+the game Hangman
